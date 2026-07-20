@@ -1,0 +1,29 @@
+generated: '2026-07-18'
+method: searched
+source: https://dddinvoices.com/documentation-e-invoicing
+docs: https://dddinvoices.com/documentation-e-invoicing
+summary:
+  types:
+  - apiKey
+  api_key_in:
+  - header
+  oauth2_flows: []
+  notes: >-
+    DDD Invoices uses a custom token ("IoT") scheme carried in the HTTP
+    Authorization header. There is no OAuth 2.0 / OpenID Connect surface
+    documented. A per-legal-entity Connection Key is issued after sign-up and
+    scopes calls to a service (EUeInvoices). Separate TEST and PROD connection
+    keys are provisioned per registered legal entity.
+schemes:
+- name: IoTConnectionKey
+  type: apiKey
+  in: header
+  parameter_name: Authorization
+  format: 'IoT <connection-key>:EUeInvoices'
+  description: >-
+    Custom token authentication. The Authorization header carries the literal
+    scheme keyword "IoT" followed by the legal entity's Connection Key and the
+    target service name, e.g. "Authorization: IoT <connection-key>:EUeInvoices".
+    HTTPS is required for all requests. TEST and PROD keys are distinct.
+  sources:
+  - https://dddinvoices.com/documentation-e-invoicing
