@@ -1,0 +1,39 @@
+generated: '2026-07-18'
+method: derived
+status: candidate
+source: https://dddinvoices.com/documentation-e-invoicing
+notes: >-
+  No official hosted/remote MCP server is published by DDD Invoices. This is a
+  CANDIDATE tool list derived from the operations documented in the developer
+  documentation (there is no public OpenAPI to ground it in). Each tool maps to
+  a named service operation invoked at
+  https://app.dddinvoices.com/api/service/EUeInvoices.<operation>.
+server:
+  name: ddd-invoices
+  transport: http
+  url: null
+tools:
+- name: save_invoice
+  description: Submit invoice data in standardized JSON for issuing / e-invoicing / fiscalization.
+  source_operation: EUeInvoices.DDDI_Save
+- name: get_new_invoice_template
+  description: Retrieve a new invoice template.
+  source_operation: EUeInvoices.DDDI_GetNew
+- name: list_received_invoices
+  description: Get the list of received invoices (REI).
+  source_operation: EUeInvoices.DDDI_GetListREI
+- name: get_received_invoice
+  description: Retrieve an existing received invoice.
+  source_operation: EUeInvoices.DDDI_GetExistingREI
+- name: acknowledge_received_invoice
+  description: Acknowledge a received invoice.
+  source_operation: EUeInvoices.DDDI_AcknowledgeREI
+- name: status_received_invoice
+  description: Check the status of a received invoice.
+  source_operation: EUeInvoices.DDDI_StatusREI
+- name: add_customer
+  description: Register an end-client / legal entity on the platform.
+  source_operation: EUeInvoices.AddCustomer
+- name: change_mode_to_prod
+  description: Switch a legal entity from test mode to production.
+  source_operation: EUeInvoices.DDDI_ChangeModeToProd

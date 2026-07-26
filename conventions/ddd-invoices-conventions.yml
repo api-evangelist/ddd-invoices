@@ -1,0 +1,60 @@
+generated: '2026-07-18'
+method: searched
+source: https://dddinvoices.com/documentation-e-invoicing
+docs: https://dddinvoices.com/documentation-e-invoicing
+authentication:
+  style: custom-token-header
+  header: Authorization
+  format: 'IoT <connection-key>:EUeInvoices'
+  ref: authentication/ddd-invoices-authentication.yml
+transport:
+  protocol: https
+  base_url: https://app.dddinvoices.com/api/service/
+  request_format: json
+  operation_style: >-
+    RPC-style named operations invoked as service methods under
+    /api/service/EUeInvoices.<operation> (e.g. DDDI_Save, DDDI_GetNew).
+response_envelope:
+  description: >-
+    All responses share a standardized JSON envelope. Success and failure are
+    signaled by envelope fields rather than solely by HTTP status.
+  fields:
+  - name: Status
+    description: Overall outcome of the request.
+  - name: Result
+    description: Operation payload / returned data.
+  - name: ResultType
+    description: Type descriptor for the Result payload.
+  - name: Reason
+    description: Human-readable explanation, populated on failure.
+  - name: Step
+    description: Processing step / stage indicator for the operation.
+environments:
+  modes:
+  - test
+  - production
+  switch_operation: DDDI_ChangeModeToProd
+  notes: >-
+    Callers begin against a TEST connection key and switch a legal entity to
+    production with DDDI_ChangeModeToProd, which returns the PROD connection key.
+  ref: sandbox/ddd-invoices-sandbox.yml
+idempotency:
+  supported: false
+  notes: No idempotency-key header or contract is documented by the provider.
+pagination:
+  documented: false
+  notes: >-
+    Received-invoice listing is retrieved via DDDI_GetListREI; the docs do not
+    publish an explicit cursor/offset pagination contract.
+versioning:
+  documented: false
+  notes: >-
+    No public versioning scheme is documented; the service is addressed by name
+    (EUeInvoices) rather than a version segment.
+rate_limiting:
+  documented: false
+errors:
+  style: envelope-field
+  notes: >-
+    Errors are surfaced through the Status / ResultType / Reason envelope fields
+    rather than an RFC 9457 problem+json body.

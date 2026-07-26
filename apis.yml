@@ -1,7 +1,16 @@
 aid: ddd-invoices
 name: DDD Invoices
-description: DDD Invoices is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  DDD Invoices is a unified e-invoicing, fiscalization, and real-time tax
+  reporting compliance platform delivered as a single API. It lets software
+  companies, ERPs, SaaS platforms, e-commerce systems, marketplaces, payment
+  providers, and POS vendors issue, receive, and archive locally compliant
+  invoices across 30+ countries without building country-specific tax
+  integrations. The platform handles B2B and B2G e-invoicing over the PEPPOL
+  network, national real-time reporting and fiscalization mandates, AI-assisted
+  invoice document processing, and long-term compliant archival, exposing it all
+  through one JSON API with test and production connection keys. Backed by 500
+  Global, it raised a USD 1.3M seed round.
 url: https://raw.githubusercontent.com/api-evangelist/ddd-invoices/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +18,47 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://dddinvoices.com/og/default.png
 tags:
 - Company
-apis: []
+- e-Invoicing
+- Fiscalization
+- Tax Compliance
+- Real-Time Reporting
+- PEPPOL
+- Invoicing
+- API
+apis:
+- name: DDD Invoices EUeInvoices API
+  description: >-
+    Single JSON API for issuing, receiving, and archiving locally compliant
+    invoices — e-invoicing, PEPPOL exchange, fiscalization, and real-time tax
+    reporting across 30+ countries. Uses a custom IoT connection-key header for
+    authentication with distinct TEST and PROD keys per legal entity.
+  humanURL: https://dddinvoices.com/documentation-e-invoicing
+  baseURL: https://app.dddinvoices.com/api/service/
+  properties:
+  - type: Documentation
+    url: https://dddinvoices.com/documentation-e-invoicing
+  - type: APIReference
+    url: https://api.dddinvoices.com/public-api-playground
+  - type: Authentication
+    url: authentication/ddd-invoices-authentication.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -23,3 +67,46 @@ maintainers:
 common:
 - type: Website
   url: https://dddinvoices.com
+- type: Documentation
+  url: https://dddinvoices.com/documentation-e-invoicing
+- type: APIReference
+  url: https://api.dddinvoices.com/public-api-playground
+- type: Quickstart
+  url: https://dddinvoices.com/builders
+- type: Pricing
+  url: https://dddinvoices.com/pricing
+- type: SignUp
+  url: https://app.dddinvoices.com/sign-up
+- type: Login
+  url: https://app.dddinvoices.com/login
+- type: TermsOfService
+  url: https://dddinvoices.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://dddinvoices.com/privacy-policy
+- type: Blog
+  url: https://dddinvoices.com/learn
+- type: Support
+  url: https://calendly.com/ddd-invoices/30min-intro
+- type: SLA
+  url: https://dddinvoices.com/service-support-level-agreements
+- type: Compliance
+  url: https://dddinvoices.com/data-processing
+- type: LLMsTxt
+  url: llms/ddd-invoices-llms.txt
+- type: Authentication
+  url: authentication/ddd-invoices-authentication.yml
+- type: Conventions
+  url: conventions/ddd-invoices-conventions.yml
+- type: Sandbox
+  url: sandbox/ddd-invoices-sandbox.yml
+- type: MCPServer
+  url: mcp/ddd-invoices-mcp.yml
+- type: Conformance
+  url: conformance/ddd-invoices-conformance.yml
+- type: DomainSecurity
+  url: security/ddd-invoices-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -1,0 +1,31 @@
+generated: '2026-07-18'
+method: searched
+source: https://dddinvoices.com/documentation-e-invoicing
+standards:
+- id: peppol
+  conforms: true
+  evidence: >-
+    Platform exchanges invoices over the PEPPOL network for cross-border B2B/B2G
+    e-invoicing (https://dddinvoices.com/learn/peppol-network).
+- id: en16931
+  conforms: true
+  evidence: >-
+    European e-invoicing (EN 16931 semantic model) compliance is the core of the
+    EUeInvoices service; issues locally compliant structured e-invoices across
+    30+ countries.
+- id: real-time-reporting-fiscalization
+  conforms: true
+  evidence: >-
+    Provides fiscalization and real-time / digital tax reporting to national tax
+    authority platforms across multiple European jurisdictions.
+- id: gdpr
+  conforms: true
+  evidence: >-
+    Publishes a GDPR data processing agreement
+    (https://dddinvoices.com/data-processing).
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: Errors use a custom Status/ResultType/Reason JSON envelope, not application/problem+json.
+- id: oauth2
+  conforms: false
+  evidence: Authentication is a custom token (IoT connection key) header scheme, not OAuth 2.0.

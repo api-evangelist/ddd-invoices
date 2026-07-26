@@ -1,0 +1,261 @@
+# DDD Invoices
+ 
+> DDD Invoices is a unified API platform for e-invoicing, fiscalization, and real-time
+> reporting compliance. Businesses use it to automate invoice compliance across multiple
+> countries through a single integration — covering e-invoicing, fiscalization, PEPPOL,
+> AI document processing, and embedded compliance APIs.
+
+## Product
+
+- [Platform Overview](https://dddinvoices.com/platform-e-invoicing-invoicing-fiscalization-api): Core capabilities of the unified compliance API platform.
+- [Pricing](https://dddinvoices.com/pricing): Plans and pricing for API access.
+- [Documentation](https://dddinvoices.com/documentation-e-invoicing): Developer documentation for the e-invoicing API.
+- [AI Document Processing](https://dddinvoices.com/ai-document-processing): Automated invoice data extraction using AI.
+- [Builders](https://dddinvoices.com/builders): Resources for developers building on the platform.
+- [FAQ](https://dddinvoices.com/faq): Frequently asked questions.
+
+## Industry Solutions
+
+- [SaaS](https://dddinvoices.com/saas-invoicing-e-invoicing-fiscalization-api): E-invoicing and compliance infrastructure for SaaS companies.
+- [E-Commerce](https://dddinvoices.com/e-commerce-e-invoicing-api-fiscalization-online): Automated invoice compliance for e-commerce platforms.
+- [Marketplaces](https://dddinvoices.com/marketplace-invoicing-api-fiscalization): Marketplace invoicing and compliance automation.
+- [Payment Providers](https://dddinvoices.com/payment-providers-invoicing-api): Embedded invoicing and compliance for payment providers.
+- [POS Systems](https://dddinvoices.com/pos-invoicing-fiscalization-api-online): Fiscalization and real-time reporting for POS providers.
+- [Enterprises](https://dddinvoices.com/enterprises-invoicing-e-invoicing-fiscalization): Multi-country invoice compliance for enterprises.
+- [Software Companies](https://dddinvoices.com/software-invoicing-e-invoicing-api-fiscalization-online): Embedded compliance for software vendors.
+
+## Integrations
+
+- [Stripe](https://dddinvoices.com/premade-plugins/stripe): Stripe integration for invoicing and compliance automation.
+- [Bitrix](https://dddinvoices.com/premade-plugins/bitrix): Bitrix integration for invoicing and fiscal compliance.
+
+## Educational Resources
+
+- [What Is an Invoice](https://dddinvoices.com/learn/what-is-an-invoice): Definition and structure of a standard invoice.
+- [What Is an E-Invoice](https://dddinvoices.com/learn/what-is-an-e-invoice): How electronic invoices differ from paper invoices.
+- [What Is E-Invoicing](https://dddinvoices.com/learn/what-is-e-invoicing): Overview of the e-invoicing process and its benefits.
+- [Benefits of E-Invoicing](https://dddinvoices.com/learn/benefits-e-invoicing): Benefits of digital invoice automation.
+- [PEPPOL Network](https://dddinvoices.com/learn/peppol-network): How the PEPPOL cross-border e-invoicing network works.
+- [PEPPOL Global E-Invoicing](https://dddinvoices.com/learn/peppol-network-global-e-invoicing): PEPPOL network guide for global e-invoicing.
+- [E-Invoicing vs Fiscalization](https://dddinvoices.com/learn/e-invoicing-vs-fiscalization): Key differences between e-invoicing and fiscalization.
+- [Real-Time Reporting in Europe](https://dddinvoices.com/learn/real-time-reporting-and-fiscalization-in-europe): European real-time reporting mandates.
+
+## Country Compliance Guides
+
+- [Albania E-Invoicing](https://dddinvoices.com/learn/e-invoicing-albania)
+- [Andorra E-Invoicing](https://dddinvoices.com/learn/e-invoicing-andorra)
+- [Austria E-Invoicing](https://dddinvoices.com/learn/e-invoicing-austria)
+- [Belgium E-Invoicing](https://dddinvoices.com/learn/e-invoicing-belgium)
+- [Bosnia and Herzegovina E-Invoicing](https://dddinvoices.com/learn/e-invoicing-bosnia-and-herzegovina)
+- [Bulgaria E-Invoicing](https://dddinvoices.com/learn/e-invoicing-bulgaria)
+- [Croatia E-Invoicing](https://dddinvoices.com/learn/e-invoicing-croatia)
+- [Cyprus E-Invoicing](https://dddinvoices.com/learn/e-invoicing-cyprus)
+- [Czech Republic E-Invoicing](https://dddinvoices.com/learn/e-invoicing-czech-republic)
+- [Denmark E-Invoicing](https://dddinvoices.com/learn/e-invoicing-denmark)
+- [Estonia E-Invoicing](https://dddinvoices.com/learn/e-invoicing-estonia)
+- [Finland E-Invoicing](https://dddinvoices.com/learn/e-invoicing-finland)
+- [France E-Invoicing](https://dddinvoices.com/learn/e-invoicing-france)
+- [Germany E-Invoicing](https://dddinvoices.com/learn/e-invoicing-germany)
+- [Greece E-Invoicing](https://dddinvoices.com/learn/e-invoicing-greece)
+- [Hungary E-Invoicing](https://dddinvoices.com/learn/e-invoicing-hungary)
+- [Ireland E-Invoicing](https://dddinvoices.com/learn/e-invoicing-ireland)
+- [Italy E-Invoicing](https://dddinvoices.com/learn/e-invoicing-italy)
+- [Latvia E-Invoicing](https://dddinvoices.com/learn/e-invoicing-latvia)
+- [Liechtenstein E-Invoicing](https://dddinvoices.com/learn/e-invoicing-liechtenstein)
+- [Lithuania E-Invoicing](https://dddinvoices.com/learn/all-about-e-invoicing-in-lithuania)
+- [Luxembourg E-Invoicing](https://dddinvoices.com/learn/e-invoicing-luxembourg)
+- [Malta E-Invoicing](https://dddinvoices.com/learn/e-invoicing-malta)
+- [Monaco E-Invoicing](https://dddinvoices.com/learn/e-invoicing-monaco)
+- [Montenegro E-Invoicing](https://dddinvoices.com/learn/e-invoicing-montenegro)
+- [Netherlands E-Invoicing](https://dddinvoices.com/learn/e-invoicing-netherlands)
+- [North Macedonia E-Invoicing](https://dddinvoices.com/learn/e-invoicing-north-macedonia)
+- [Norway E-Invoicing](https://dddinvoices.com/learn/e-invoicing-norway)
+- [Poland E-Invoicing](https://dddinvoices.com/learn/e-invoicing-in-poland)
+- [Portugal E-Invoicing](https://dddinvoices.com/learn/e-invoicing-portugal)
+- [Romania E-Invoicing](https://dddinvoices.com/learn/e-invoicing-romania)
+- [Serbia E-Invoicing](https://dddinvoices.com/learn/all-about-e-invoicing-in-serbia)
+- [Slovakia E-Invoicing](https://dddinvoices.com/learn/e-invoicing-slovakia)
+- [Slovenia E-Invoicing](https://dddinvoices.com/learn/e-invoicing-slovenia)
+- [Spain E-Invoicing](https://dddinvoices.com/learn/e-invoicing-spain)
+- [Sweden E-Invoicing](https://dddinvoices.com/learn/e-invoicing-sweden)
+- [Switzerland E-Invoicing](https://dddinvoices.com/learn/e-invoicing-switzerland)
+- [Turkey E-Invoicing](https://dddinvoices.com/learn/e-invoicing-turkey)
+- [United Kingdom E-Invoicing](https://dddinvoices.com/learn/e-invoicing-united-kingdom)
+- [United States E-Invoicing](https://dddinvoices.com/learn/e-invoicing-usa-digital-business-networks-alliance)
+
+## Blog / Learn URLs
+
+- https://dddinvoices.com/learn/how-e-invoicing-enhances-erp-compliance-and-automation
+- https://dddinvoices.com/learn/fiscalization-and-real-time-reporting-in-malta
+- https://dddinvoices.com/learn/fiscalisation-and-real-time-reporting-in-spain
+- https://dddinvoices.com/learn/fiscalization-and-real-time-reporting-in-north-macedonia
+- https://dddinvoices.com/learn/fiscalization-and-real-time-reporting-in-monaco
+- https://dddinvoices.com/learn/fiscalization-and-real-time-reporting-in-montenegro
+- https://dddinvoices.com/learn/fiscalization-and-real-time-reporting-in-poland
+- https://dddinvoices.com/learn/fiscalisation-and-real-time-reporting-in-turkey
+- https://dddinvoices.com/learn/fiscalization-and-real-time-reporting-in-slovakia
+- https://dddinvoices.com/learn/fiscalization-and-real-time-reporting-in-norway
+- https://dddinvoices.com/learn/e-invoicing-hungary
+- https://dddinvoices.com/learn/e-invoicing-italy
+- https://dddinvoices.com/learn/e-invoicing-belgium
+- https://dddinvoices.com/learn/fiscalization-and-real-time-reporting-in-the-denmark
+- https://dddinvoices.com/learn/fiscalization-and-real-time-reporting-in-czech-republic
+- https://dddinvoices.com/learn/fiscalization-and-real-time-reporting-in-cyprus
+- https://dddinvoices.com/learn/fiscalization-and-real-time-reporting-in-germany
+- https://dddinvoices.com/learn/fiscalization-and-real-time-reporting-in-finland
+- https://dddinvoices.com/learn/fiscalization-and-real-time-reporting-in-hungary
+- https://dddinvoices.com/learn/fiscalization-and-real-time-reporting-in-croatia
+- https://dddinvoices.com/learn/fiscalization-and-real-time-reporting-in-bulgaria
+- https://dddinvoices.com/learn/fiscalization-and-real-time-reporting-in-lithuania
+- https://dddinvoices.com/learn/fiscalization-and-real-time-reporting-in-estonia
+- https://dddinvoices.com/learn/fiscalization-and-real-time-reporting-in-italy
+- https://dddinvoices.com/learn/fiscalization-and-real-time-reporting-in-luxembourg
+- https://dddinvoices.com/learn/savo-medenica-ddd-cooperation
+- https://dddinvoices.com/learn/fiscalization-and-real-time-reporting-in-belgium
+- https://dddinvoices.com/learn/fiscalisation-and-real-time-reporting-in-israel
+- https://dddinvoices.com/learn/fiscalization-and-real-time-reporting-in-bosnia-and-herzegovina
+- https://dddinvoices.com/learn/fiscalization-and-real-time-reporting-in-latvia
+- https://dddinvoices.com/learn/stripe-and-peppol-e-invoices-how-to-issue-e-invoices-
+- https://dddinvoices.com/learn/ddd-invoices-vs-stripe-choosing-the-right-tool-for-global-businesses
+- https://dddinvoices.com/learn/stripe-invoicing-api-vs-ddd-invoices-invoicing-api
+- https://dddinvoices.com/learn/stripe-e-invoicing--fiscalization-plugin-how-to-guide
+- https://dddinvoices.com/learn/e-invoicing-czech-republic
+- https://dddinvoices.com/learn/fiscalization-and-real-time-reporting-in-the-greece
+- https://dddinvoices.com/learn/fiscalization-and-real-time-reporting-in-andorra
+- https://dddinvoices.com/learn/e-invoicing-malta
+- https://dddinvoices.com/learn/fiscalisation-and-real-time-reporting-in-portugal
+- https://dddinvoices.com/learn/fiscalization-and-real-time-reporting-in-liechtenstein
+- https://dddinvoices.com/learn/fiscalization-and-real-time-reporting-in-austria
+- https://dddinvoices.com/learn/all-about-e-invoicing-in-lithuania
+- https://dddinvoices.com/learn/e-invoicing-liechtenstein
+- https://dddinvoices.com/learn/fiscalization-and-real-time-reporting-in-the-netherlands
+- https://dddinvoices.com/learn/e-invoicing-israel
+- https://dddinvoices.com/learn/fiscalization-and-real-time-reporting-in-romania
+- https://dddinvoices.com/learn/fiscalization-and-real-time-reporting-in-france
+- https://dddinvoices.com/learn/e-invoicing-andorra
+- https://dddinvoices.com/learn/e-invoicing-albania
+- https://dddinvoices.com/learn/e-invoicing-cyprus
+- https://dddinvoices.com/learn/e-invoicing-netherlands
+- https://dddinvoices.com/learn/e-invoicing-luxembourg
+- https://dddinvoices.com/learn/e-invoicing-sweden
+- https://dddinvoices.com/learn/e-invoicing-austria
+- https://dddinvoices.com/learn/e-invoicing-slovakia
+- https://dddinvoices.com/learn/e-invoicing-turkey
+- https://dddinvoices.com/learn/e-invoicing-slovenia
+- https://dddinvoices.com/learn/invoice-interoperability-2026-guide
+- https://dddinvoices.com/learn/how-api-embedded-invoicing-cuts-costs-by-80-in-2026
+- https://dddinvoices.com/learn/peppol-network-global-e-invoicing
+- https://dddinvoices.com/learn/mitigating-saas-compliance-risks-when-exchanging-invoices
+- https://dddinvoices.com/learn/best-e-invoicing-providers-segments-comparison-for-2026
+- https://dddinvoices.com/learn/unified-invoicing-api-compliance
+- https://dddinvoices.com/learn/compliant-invoice-exchange-workflow-saas
+- https://dddinvoices.com/learn/e-invoicing-estonia
+- https://dddinvoices.com/learn/local-providers-vs-ddd-invoices-e-invoicing-guide
+- https://dddinvoices.com/learn/monetizing-e-invoicing-compliance-a-software-providers-guide
+- https://dddinvoices.com/learn/e-invoicing-france
+- https://dddinvoices.com/learn/chargebee-vs-ddd-invoices-subscription-automation-vs-multi-country-e-invoicing
+- https://dddinvoices.com/learn/square-vs-ddd-invoices-pos-meets-multi-country-e-invoicing
+- https://dddinvoices.com/learn/e-invoicing-switzerland
+- https://dddinvoices.com/learn/e-invoicing-portugal
+- https://dddinvoices.com/learn/e-invoicing-north-macedonia
+- https://dddinvoices.com/learn/e-invoicing-norway
+- https://dddinvoices.com/learn/mandatory-e-invoicing-in-malaysia-myinvois-platform
+- https://dddinvoices.com/learn/e-invoicing-bulgaria
+- https://dddinvoices.com/learn/e-invoicing-croatia
+- https://dddinvoices.com/learn/e-invoicing-germany
+- https://dddinvoices.com/learn/e-invoicing-greece
+- https://dddinvoices.com/learn/e-invoicing-latvia
+- https://dddinvoices.com/learn/e-invoicing-denmark
+- https://dddinvoices.com/learn/e-invoicing-spain
+- https://dddinvoices.com/learn/e-invoicing-in-poland
+- https://dddinvoices.com/learn/e-invoicing-romania
+- https://dddinvoices.com/learn/sumup-vs-ddd-invoices-merchant-tools-or-api-first-e-invoicing
+- https://dddinvoices.com/learn/paddle-vs-ddd-invoices-from-saas-billing-to-embedded-e-invoicing-compliance
+- https://dddinvoices.com/learn/zoho-invoice-meets-ddd-invoices-bridging-billing-and-e-invoicing-compliance
+- https://dddinvoices.com/learn/fiscalization-and-real-time-reporting-in-slovenia
+- https://dddinvoices.com/learn/fiscalization-and-real-time-reporting-in-the-united-kingdom
+- https://dddinvoices.com/learn/e-invoicing-in-thailand-
+- https://dddinvoices.com/learn/e-invoicing-montenegro
+- https://dddinvoices.com/learn/real-time-reporting-and-fiscalization-in-europe
+- https://dddinvoices.com/learn/e-invoicing-finland
+- https://dddinvoices.com/learn/all-about-e-invoicing-in-serbia
+- https://dddinvoices.com/learn/e-invoicing-bosnia-and-herzegovina
+- https://dddinvoices.com/learn/e-invoicing-ireland
+- https://dddinvoices.com/learn/e-invoicing-monaco
+- https://dddinvoices.com/learn/einvoicing-in-indonesia
+- https://dddinvoices.com/learn/ddd-invoices-integration-for-logitude-api-integration
+- https://dddinvoices.com/learn/quickbooks-vs-ddd-invoices-streamlining-accounting-to-einvoices
+- https://dddinvoices.com/learn/e-invoices-ddd-cooperation
+- https://dddinvoices.com/learn/how-dondon-group-achieved-fiscal-compliance
+- https://dddinvoices.com/learn/fiscalization-and-real-time-reporting-in-albania
+- https://dddinvoices.com/learn/fiscalization-and-real-time-reporting-in-ireland
+- https://dddinvoices.com/learn/fiscalization-and-real-time-reporting-in-serbia
+- https://dddinvoices.com/learn/freshbooks-vs-ddd-invoices-seamless-accounting-and-einvoices
+- https://dddinvoices.com/learn/xero-vs-ddd-invoices-which-e-invoicing-solution-fits-your-business
+- https://dddinvoices.com/learn/avalara-vs-ddd-invoices-end-user-tax-automation-or-compliance-api
+- https://dddinvoices.com/learn/sovos-vs-ddd-invoices-enterprise-tax-platform-vs-embedded-compliance
+- https://dddinvoices.com/learn/ddd-invoices-vs-fonoa-choosing-the-right-e-invoicing-platform
+- https://dddinvoices.com/learn/what-is-e-invoicing
+- https://dddinvoices.com/learn/-trebjesa-ddd-invoices-solution
+- https://dddinvoices.com/learn/step-adria-ddd-cooperation
+- https://dddinvoices.com/learn/munch-ddd-invoices-solution
+- https://dddinvoices.com/learn/iot-ddd-invoices-solution
+- https://dddinvoices.com/learn/e-invoicing-usa-digital-business-networks-alliance
+- https://dddinvoices.com/learn/e-invoicing-vs-fiscalization
+- https://dddinvoices.com/learn/cross-ddd-cooperation
+- https://dddinvoices.com/learn/climatherm-gsoftware-ddd-invoices-solution
+- https://dddinvoices.com/learn/mivexfood-ddd-cooperation
+- https://dddinvoices.com/learn/aris-ddd-invoices-solution
+- https://dddinvoices.com/learn/bitrix24-plugin-for-e-invoices-fiscalization-how-to-guide
+- https://dddinvoices.com/learn/unifiedpost-vs-ddd-finance-platform-or-compliance-apis
+- https://dddinvoices.com/learn/sovos-alternative-approaches-to-tax-and-e-invoicing-compliance
+- https://dddinvoices.com/learn/avalara-alternative-approaches-to-tax-and-e-invoicing-compliance
+- https://dddinvoices.com/learn/peppol-network
+- https://dddinvoices.com/learn/property-management-systems-e-invoicing-for-revenue-growth-2026
+- https://dddinvoices.com/learn/wheelsys-ddd-invoices-solution
+- https://dddinvoices.com/learn/retail-ddd-invoices-solution
+- https://dddinvoices.com/learn/optimizing-b2b-e-invoicing-with-innovative-api-solutions
+- https://dddinvoices.com/learn/benefits-e-invoicing
+- https://dddinvoices.com/learn/e-invoicing-europe
+- https://dddinvoices.com/learn/zenoti-ddd-invoices-solution
+- https://dddinvoices.com/learn/e-invoicing-united-kingdom
+- https://dddinvoices.com/learn/fiscalization-and-real-time-reporting-in-sweden
+- https://dddinvoices.com/learn/fiscalization-and-real-time-reporting-in-switzerland
+- https://dddinvoices.com/learn/edicom-vs-ddd-invoices-enterprise-edi-vs-embedded-e-invoicing
+- https://dddinvoices.com/learn/e-invoicing-adoption-key-challenges-businesses-face
+- https://dddinvoices.com/learn/einvoice-archiving-complianceready-storage-for-digital-invoices
+- https://dddinvoices.com/learn/gdpr-and-e-invoicing-navigating-global-compliance
+- https://dddinvoices.com/learn/cloud-invoicing-explained-2026-compliance-with-apis
+- https://dddinvoices.com/learn/why-saas-invoicing-drivesglobal-compliance
+- https://dddinvoices.com/learn/e-invoice-exchange-network-simplifying-global-compliance
+- https://dddinvoices.com/learn/how-to-issue-compliant-invoices-globally-for-saas-in-2026
+- https://dddinvoices.com/learn/fiscalization-and-real-time-reporting-in-turkey
+- https://dddinvoices.com/learn/fiscalization-and-real-time-reporting-in-portugal
+- https://dddinvoices.com/learn/fiscalization-and-real-time-reporting-in-bosnia-and-herzegovina-2026-updates
+- https://dddinvoices.com/learn/e-signature-invoicing-global-compliance
+- https://dddinvoices.com/learn/e-invoicing-in-indonesia
+- https://dddinvoices.com/learn/fiscalization-and-real-time-reporting-in-spain
+- https://dddinvoices.com/learn/fiscalization-and-real-time-reporting-in-israel
+- https://dddinvoices.com/learn/7-steps-to-a-complete-invoice-automation-checklist
+- https://dddinvoices.com/learn/compliance-risks-in-invoicing-safeguarding-global-saas
+- https://dddinvoices.com/learn/erp-e-invoicing-compliance-how-to-prepare-your-system
+- https://dddinvoices.com/learn/automation-through-e-invoicing-for-global-saas-finance
+- https://dddinvoices.com/learn/how-e-invoicing-and-real-time-reporting-help-close-the-vat-gap
+- https://dddinvoices.com/learn/master-real-time-invoice-reporting-workflow-for-compliance
+- https://dddinvoices.com/learn/mastering-invoice-management-for-software-companies-in-2026
+- https://dddinvoices.com/learn/national-e-invoicing-platform-integration-guide
+- https://dddinvoices.com/learn/ddd-invoices-raises-1-3million-seed
+
+## Company
+ 
+- [About Us](https://dddinvoices.com/about-us): Company background and mission.
+- [Denis (Co-founder)](https://dddinvoices.com/about-us/founder/denis): Background of co-founder Denis.
+- [Dusan (Co-founder)](https://dddinvoices.com/about-us/founder/dusan): Background of co-founder Dusan.
+ 
+## Optional
+ 
+- [Privacy Policy](https://dddinvoices.com/privacy-policy): Data privacy policy.
+- [Terms and Conditions](https://dddinvoices.com/terms-and-conditions): Terms of service.
+- [Cookies](https://dddinvoices.com/cookies): Cookie usage policy.
+- [Data Processing](https://dddinvoices.com/data-processing): Data processing agreement details.
+- [SLA](https://dddinvoices.com/service-support-level-agreements): Service and support level agreements.

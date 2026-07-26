@@ -1,0 +1,25 @@
+generated: '2026-07-18'
+method: searched
+source: https://dddinvoices.com/documentation-e-invoicing
+docs: https://dddinvoices.com/documentation-e-invoicing
+test_live_separation:
+  model: per-legal-entity connection keys
+  test_key: TEST connection key (issued on sign-up)
+  live_key: PROD connection key (returned after production switch)
+  switch_operation: DDDI_ChangeModeToProd
+  description: >-
+    Each legal entity registered on the platform is issued a TEST connection key
+    for sandbox integration. Calls run in test mode until the entity is switched
+    to production via DDDI_ChangeModeToProd, which provisions the PROD key.
+onboarding:
+  free_testing: true
+  steps:
+  - Register as a service provider and sign up.
+  - Create an API (connection) key for sandbox testing.
+  - Integrate and test against the TEST connection key.
+  - Switch the legal entity to production (DDDI_ChangeModeToProd) to go live.
+  signup: https://app.dddinvoices.com/sign-up
+notes: >-
+  DDD Invoices does not publish static magic test identifiers (no test card /
+  IBAN tables); the sandbox is the TEST connection-key mode against the live API
+  surface. No fabricated test values are recorded here.
