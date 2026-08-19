@@ -2,12 +2,9 @@ generated: '2026-07-18'
 method: derived
 status: candidate
 source: https://dddinvoices.com/documentation-e-invoicing
-notes: >-
-  No official hosted/remote MCP server is published by DDD Invoices. This is a
-  CANDIDATE tool list derived from the operations documented in the developer
-  documentation (there is no public OpenAPI to ground it in). Each tool maps to
-  a named service operation invoked at
-  https://app.dddinvoices.com/api/service/EUeInvoices.<operation>.
+notes: No official hosted/remote MCP server is published by DDD Invoices. This is a CANDIDATE tool list
+  derived from the operations documented in the developer documentation (there is no public OpenAPI to
+  ground it in). Each tool maps to a named service operation invoked at https://app.dddinvoices.com/api/service/EUeInvoices.<operation>.
 server:
   name: ddd-invoices
   transport: http
@@ -37,3 +34,9 @@ tools:
 - name: change_mode_to_prod
   description: Switch a legal entity from test mode to production.
   source_operation: EUeInvoices.DDDI_ChangeModeToProd
+deployment:
+  mode: none
+  verified: derived
+  tools: 8
+  checked: '2026-08-12'
+  source: catalog MCP census
